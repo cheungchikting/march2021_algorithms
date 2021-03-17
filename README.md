@@ -7,7 +7,7 @@ The purpose of this repository is to allow students to practice and build up the
 ### How to run this package
 
 ```
-npm install
+npm install --save-dev jest
 ```
 Open your terminal, change directory in the root folder, and type in: 
 ```
