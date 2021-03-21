@@ -45,14 +45,6 @@ jest [specificName] (e.g., jest helloworld)
 4. This repository will also include practical problems that they may need to solve, such as
 5. The answer section should provide a comprehensive answer, as well as an explanation as to why that is a good answer.
 
-## Sprint :athletic_shoe:
-
-| Done? | Component                              | Priority | Deadline |
-| ----- | -------------------------------------- | :------: | :------: |
-|       | Finish the first five problems         |    H     | March 12 |
-|       | Meet and discuss the next ten problems |    M     | March 14 |
-|       | Complete the next ten problems         |    H     | March 19 |
-
 ### Daily Stand Up :hourglass:
 
 ## Issues and Resolutions :flashlight:
