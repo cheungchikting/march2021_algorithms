@@ -8,7 +8,11 @@
  *  One for you, one for me.
  ***********************************************/
 
-function twoFer(/* CODE HERE */) {
-  // CODE HERE
+function twoFer(x) {
+  if (x === null || x === undefined) {
+  return "One for you, one for me."
+  }
+  return `One for ${x}, one for me.`
 }
+
 module.exports = twoFer;

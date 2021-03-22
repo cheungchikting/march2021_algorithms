@@ -7,7 +7,12 @@
  ***********************************************/
 
 function capitalize(str) {
-  // CODE HERE
+  let words = str.split(" ");
+  let sentence = []
+  console.log(words)
+  for (let i = 0; i < words.length; i++) {
+  sentence.push(words[i].charAt(0).toUpperCase() + words[i].slice(1));
+  }
+  return sentence.join(" ")
 }
-
 module.exports = { capitalize };

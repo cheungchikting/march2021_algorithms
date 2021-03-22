@@ -9,7 +9,7 @@
 
  ***********************************************/
 function hello() {
-  // CODE HERE
+  return "Hello, World!"
 }
 
 module.exports = hello;

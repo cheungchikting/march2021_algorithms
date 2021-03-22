@@ -32,6 +32,7 @@ const COLORS = [
   "white",
 ];
 function colorCode(num) {
-  // CODE HERE
+  return COLORS.indexOf(num);
 }
+
 module.exports = { colorCode, COLORS };
