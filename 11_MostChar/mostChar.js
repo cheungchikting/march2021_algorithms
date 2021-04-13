@@ -11,8 +11,19 @@
 
 
  ***********************************************/
-function mostChar(str) {
-    // CODE HERE
-}
+ function mostChar(str) {
+    let count = 0;
+    let newArr = [];
+    for (let i=0; i < str.length; i++) {
+        if (str[i]) {
+        count += 1
+        return count
+        
+        } 
+    }
+ }
 
-module.exports = mostChar;
+
+console.log(mostChar("xccelerate"))
+
+

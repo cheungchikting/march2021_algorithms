@@ -17,6 +17,19 @@ T -> A
 A -> U
  ***********************************************/
 function rnaTranscription(x) {
-  // CODE HERE
+  let arr = x.split("");
+  for (let i =0; i < arr.length; i++){
+    if (arr[i] === "G") {
+      arr[i] = "C";
+    } else if (arr[i] === "C") {
+      arr[i] = "G";
+    } else if (arr[i] === "T") {
+      arr[i] = "A";
+    } else if (arr[i] === "A") {
+      arr[i] = "U";
+    }
+  }
+  let tranArr = arr.join("")
+  return tranArr
 }
 module.exports = { rnaTranscription };

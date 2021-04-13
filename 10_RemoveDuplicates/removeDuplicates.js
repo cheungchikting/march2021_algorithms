@@ -11,7 +11,11 @@
 
  ***********************************************/
 function removeDuplicates(arr) {
-  // CODE HERE
+  let unique = new Set(arr);
+  let backtoArr = [...unique]
+  return backtoArr
 }
+
+console.log(removeDuplicates([1,2,3,4,5,1]))
 
 module.exports = removeDuplicates;
